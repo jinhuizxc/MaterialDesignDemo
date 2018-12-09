@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="subscription_head">200dp</dimen>
+    <dimen name="toolbar_height">50dp</dimen>
+    <dimen name="normal_space">10dp</dimen>
+</resources>

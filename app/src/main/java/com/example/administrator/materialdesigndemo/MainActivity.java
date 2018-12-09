@@ -22,6 +22,9 @@ import butterknife.OnClick;
  * 系列文章，会持续更新此demo
  *
  *
+ * https://github.com/GitLqr/MaterialDesignDemo
+ * Material Design 兼容性控件学习
+ *
  * Material Design——控件大汇总(一)
  * https://blog.csdn.net/Fly_li_sir/article/details/79704021
  */
