@@ -104,7 +104,8 @@ public class CollapsingToolbarLayoutActivityNew extends AppCompatActivity {
                 mSubscriptionTitle.setTranslationY(mTitleScale * verticalOffset);
 //                mSubscriptionTitle.setTranslationX(mSubScribeScaleX * verticalOffset);  // 平移到左上角位置
                 tvSubscribe.setTranslationY(mSubScribeScale * verticalOffset);
-                tvSubscribe.setTranslationX(-mSubScribeScaleX * verticalOffset);
+//                tvSubscribe.setTranslationX(-mSubScribeScaleX * verticalOffset);
+                tvSubscribe.setTranslationX(mSubScribeScaleX * verticalOffset);
 
 
             }

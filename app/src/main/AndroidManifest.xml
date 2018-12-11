@@ -21,6 +21,7 @@
 
         <activity android:name=".CollapsingToolbarLayoutActivity"/>
         <activity android:name=".CollapsingToolbarLayoutActivityNew"/>
+        <activity android:name=".TeachMainActivity"/>
 
     </application>
 

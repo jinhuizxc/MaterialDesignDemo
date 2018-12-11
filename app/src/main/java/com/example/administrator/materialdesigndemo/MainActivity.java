@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.bt_collapsingToolbarLayout: // 利用 CollapsingToolbarLayout 完成联动的动画效果
 //                startActivity(new Intent(this, CollapsingToolbarLayoutActivity.class));
-
-                startActivity(new Intent(this, CollapsingToolbarLayoutActivityNew.class));
+//                startActivity(new Intent(this, CollapsingToolbarLayoutActivityNew.class));
+                startActivity(new Intent(this, TeachMainActivity.class));
                 break;
         }
     }

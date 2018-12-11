@@ -5,4 +5,15 @@
     <dimen name="normal_space">10dp</dimen>
     <dimen name="tv_size">16dp</dimen>
     <dimen name="normal_space1">150dp</dimen>
+    <dimen name="daza_space_20">20dp</dimen>
+    <dimen name="daza_space_10">10dp</dimen>
+    <dimen name="daza_space_17">17dp</dimen>
+    <dimen name="daza_space_9">9dp</dimen>
+    <dimen name="daza_font_16">16sp</dimen>
+    <dimen name="daza_space_8">8dp</dimen>
+    <dimen name="daza_space_15">15dp</dimen>
+    <dimen name="daza_space_13">13dp</dimen>
+    <dimen name="daza_font_12">12dp</dimen>
+    <dimen name="daza_space_18">18dp</dimen>
+    <dimen name="daza_space_30">30dp</dimen>
 </resources>
