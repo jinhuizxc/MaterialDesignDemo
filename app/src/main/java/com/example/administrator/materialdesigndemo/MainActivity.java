@@ -49,7 +49,9 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "toolbar", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.bt_collapsingToolbarLayout: // 利用 CollapsingToolbarLayout 完成联动的动画效果
-                startActivity(new Intent(this, CollapsingToolbarLayoutActivity.class));
+//                startActivity(new Intent(this, CollapsingToolbarLayoutActivity.class));
+
+                startActivity(new Intent(this, CollapsingToolbarLayoutActivityNew.class));
                 break;
         }
     }
