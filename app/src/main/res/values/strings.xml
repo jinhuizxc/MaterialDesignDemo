@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MaterialDesignDemo</string>
+
+    <string name="nav_action_posts">Posts</string>
+    <string name="nav_action_photos">Photos</string>
+    <string name="app_developer_name">TheLittleNaruto</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
 </resources>

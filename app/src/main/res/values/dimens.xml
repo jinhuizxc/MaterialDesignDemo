@@ -16,4 +16,6 @@
     <dimen name="daza_font_12">12dp</dimen>
     <dimen name="daza_space_18">18dp</dimen>
     <dimen name="daza_space_30">30dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>

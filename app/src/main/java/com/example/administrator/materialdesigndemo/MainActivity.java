@@ -2,11 +2,12 @@ package com.example.administrator.materialdesigndemo;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import com.example.administrator.materialdesigndemo.example.supportdesign.SupportDesignExampleActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -20,11 +21,11 @@ import butterknife.OnClick;
  * 利用 CollapsingToolbarLayout 完成联动的动画效果
  * <p>
  * 系列文章，会持续更新此demo
- *
- *
+ * <p>
+ * <p>
  * https://github.com/GitLqr/MaterialDesignDemo
  * Material Design 兼容性控件学习
- *
+ * <p>
  * Material Design——控件大汇总(一)
  * https://blog.csdn.net/Fly_li_sir/article/details/79704021
  */
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
     Button btToolbar;
     @BindView(R.id.bt_collapsingToolbarLayout)
     Button btCollapsingToolbarLayout;
+    @BindView(R.id.bt_example)
+    Button btExample;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_toolbar, R.id.bt_collapsingToolbarLayout})
+    @OnClick({R.id.bt_toolbar, R.id.bt_collapsingToolbarLayout, R.id.bt_example})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_toolbar:
@@ -52,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
 //                startActivity(new Intent(this, CollapsingToolbarLayoutActivity.class));
 //                startActivity(new Intent(this, CollapsingToolbarLayoutActivityNew.class));
                 startActivity(new Intent(this, TeachMainActivity.class));
+                break;
+            case R.id.bt_example:
+                startActivity(new Intent(this, SupportDesignExampleActivity.class));
                 break;
         }
     }

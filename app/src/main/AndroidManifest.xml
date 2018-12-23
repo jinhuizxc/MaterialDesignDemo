@@ -22,6 +22,8 @@
         <activity android:name=".CollapsingToolbarLayoutActivity"/>
         <activity android:name=".CollapsingToolbarLayoutActivityNew"/>
         <activity android:name=".TeachMainActivity"/>
+        <activity android:name=".example.supportdesign.SupportDesignExampleActivity"
+            android:theme="@style/supportDesignTheme"/>
 
     </application>
 
