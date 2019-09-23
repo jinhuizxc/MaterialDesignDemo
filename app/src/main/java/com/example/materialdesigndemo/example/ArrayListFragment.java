@@ -1,10 +1,9 @@
-package com.example.administrator.materialdesigndemo.example;
+package com.example.materialdesigndemo.example;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,7 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.administrator.materialdesigndemo.R;
-import com.example.administrator.materialdesigndemo.example.supportdesign.helper.Cheeses;
+import com.example.materialdesigndemo.example.supportdesign.helper.Cheeses;
 
 import java.util.Objects;
 

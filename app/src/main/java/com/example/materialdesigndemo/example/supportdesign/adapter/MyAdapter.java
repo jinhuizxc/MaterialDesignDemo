@@ -1,11 +1,11 @@
-package com.example.administrator.materialdesigndemo.example.supportdesign.adapter;
+package com.example.materialdesigndemo.example.supportdesign.adapter;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.administrator.materialdesigndemo.example.ArrayListFragment;
+import com.example.materialdesigndemo.example.ArrayListFragment;
 
 /**
  * Email: 1004260403@qq.com

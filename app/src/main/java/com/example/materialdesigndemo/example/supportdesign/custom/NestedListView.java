@@ -1,4 +1,4 @@
-package com.example.administrator.materialdesigndemo.example.supportdesign.custom;
+package com.example.materialdesigndemo.example.supportdesign.custom;
 
 import android.content.Context;
 import android.util.AttributeSet;

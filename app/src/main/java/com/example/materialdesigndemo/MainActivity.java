@@ -28,6 +28,9 @@ import butterknife.OnClick;
  * <p>
  * Material Design——控件大汇总(一)
  * https://blog.csdn.net/Fly_li_sir/article/details/79704021
+ *
+ * android CoordinatorLayout使用
+ * https://blog.csdn.net/xyz_lmn/article/details/48055919
  */
 public class MainActivity extends AppCompatActivity {
 

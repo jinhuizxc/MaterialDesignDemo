@@ -1,4 +1,4 @@
-package com.example.administrator.materialdesigndemo.example.supportdesign;
+package com.example.materialdesigndemo.example.supportdesign;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -16,7 +16,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.example.administrator.materialdesigndemo.R;
-import com.example.administrator.materialdesigndemo.example.supportdesign.adapter.MyAdapter;
+import com.example.materialdesigndemo.example.supportdesign.adapter.MyAdapter;
 
 /**
  * Email: 1004260403@qq.com
