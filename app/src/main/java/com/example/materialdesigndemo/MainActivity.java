@@ -1,4 +1,4 @@
-package com.example.administrator.materialdesigndemo;
+package com.example.materialdesigndemo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.administrator.materialdesigndemo.example.supportdesign.SupportDesignExampleActivity;
+
+import com.example.materialdesigndemo.R;
+import com.example.materialdesigndemo.example.supportdesign.SupportDesignExampleActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

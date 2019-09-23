@@ -15,7 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import com.example.administrator.materialdesigndemo.R;
+import com.example.materialdesigndemo.R;
 import com.example.materialdesigndemo.example.supportdesign.adapter.MyAdapter;
 
 /**

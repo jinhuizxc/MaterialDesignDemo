@@ -1,4 +1,4 @@
-package com.example.administrator.materialdesigndemo;
+package com.example.materialdesigndemo;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -12,6 +12,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.example.materialdesigndemo.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
