@@ -7,8 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-
-import com.example.materialdesigndemo.R;
+import com.example.materialdesigndemo.coordinatorlayout.CoordinatorLayoutActivity;
 import com.example.materialdesigndemo.example.supportdesign.SupportDesignExampleActivity;
 
 import butterknife.BindView;
@@ -30,7 +29,7 @@ import butterknife.OnClick;
  * <p>
  * Material Design——控件大汇总(一)
  * https://blog.csdn.net/Fly_li_sir/article/details/79704021
- *
+ * <p>
  * android CoordinatorLayout使用
  * https://blog.csdn.net/xyz_lmn/article/details/48055919
  */
@@ -42,6 +41,10 @@ public class MainActivity extends AppCompatActivity {
     Button btCollapsingToolbarLayout;
     @BindView(R.id.bt_example)
     Button btExample;
+    @BindView(R.id.bt_coordinatorLayout)
+    Button btCoordinatorLayout;
+    @BindView(R.id.bt_appBarLayout)
+    Button btAppBarLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.bt_toolbar, R.id.bt_collapsingToolbarLayout, R.id.bt_example})
+    @OnClick({R.id.bt_toolbar, R.id.bt_collapsingToolbarLayout, R.id.bt_example,
+            R.id.bt_coordinatorLayout, R.id.bt_appBarLayout})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.bt_toolbar:
@@ -64,6 +68,12 @@ public class MainActivity extends AppCompatActivity {
             case R.id.bt_example:
                 startActivity(new Intent(this, SupportDesignExampleActivity.class));
                 break;
+            case R.id.bt_coordinatorLayout:
+                startActivity(new Intent(this, CoordinatorLayoutActivity.class));
+                break;
+            case R.id.bt_appBarLayout:
+                break;
         }
     }
+
 }

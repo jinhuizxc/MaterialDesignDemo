@@ -25,6 +25,8 @@
         <activity android:name=".example.supportdesign.SupportDesignExampleActivity"
             android:theme="@style/supportDesignTheme"/>
 
+        <activity android:name=".coordinatorlayout.CoordinatorLayoutActivity"/>
+
     </application>
 
 </manifest>
