@@ -40,4 +40,22 @@
         android:layout_height="wrap_content"
         android:text="例子"/>
 
+    <Button
+        android:id="@+id/bt_zhihu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BottomSheetDialog"/>
+
+    <Button
+        android:id="@+id/bt_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="constraintLayout"/>
+
+    <Button
+        android:id="@+id/bt_RevealEffect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RevealEffect揭示动画"/>
+
 </LinearLayout>

@@ -7,4 +7,53 @@
     <string name="open_drawer">Open drawer</string>
     <string name="close_drawer">Close drawer</string>
 
+
+    <string name="text">1. Toolbar和ActionBar基本一样,Toolbar是可移动的，ActionBar不可动\n
+2. AppBarLayout是继承自LinearLayout，垂直的，他为了给里面的子View实现动作效果的（子View不一定是Toolbar）,
+        一般在要实现动作效果的子View里面添加`app:layout_scrollFlags=""`属性就好了，里面的属性值按英文翻译
+        很容易理解的\n
+3. CoordinatorLayout是为了协调子View之间的联动的，它的核心是Behavor,一般用系统定义好的Behavor就好了
+        (也可以自定义)，举个例子，比如NestScrollView滑动时想让Toolbar也滑动就是这种联动,我们就在
+        CoordinatorLayout容器布局里面添加Toolbar与NestScrollView,而Toolbar想实现滑动就要用到AppBarLayout，
+        所以在Toolbar外面再加一层AppBarLayout, 一般我们在NestScrollView里面添加属性
+`app:layout_behavior="@string/appbar_scrolling_view_behavior"`，如果不添加这个联动属性导致了Toolbar与
+        NestScrollView重叠。\n
+4. CollapsingToolbarLayout是对Toolbar再次包装的ViewGroup，用来实现折叠或拉伸效果的，他需要放到AppBarLayout里面，
+        并且是直接子View，CollapsingToolbarLayout子View里面要设置属性`app:layout_collapseMode`里面的值
+        pin表示当上滑时该控件保留，其他控件不留\n</string>
+    <string name="text2">Android Material Design 风格控件的学习及遇到的问题；Tablayout | 横向布局标签，TextInputLayout | 文字输入布局 ，FloatingActionButton | 悬浮按钮， CoordinatorLayout APPBarLayout CollapsingTabLayout实现折叠头布局,BottomSheetDialog | 底部对话框,Touch Feedback| 触摸反馈，Reveal Effect| 揭示效果,Curved motion | 曲线运动,Animated Vector Drawables | 矢量图片动画</string>
+    <string name="MOTTO">刚则易折，柔则长存</string>
+    <string name="pleasewait">敬请期待</string>
+    <string name="CoordinatorLayout">折叠布局的嵌套</string>
+    <string name="FAILE">加载失败,点击重试</string>
+    <string name="LOADING">努力加载中…</string>
+    <!--微笑-->
+    <string name="path_face">M 50,50 m -48 ,0 a 48,48 0 1,0 96,0 a 48,48 0 1,0 -96,0</string>
+    <string name="path_face_mouth_sad">M 30,75 Q 50,55 70,75 </string>
+    <string name="path_face_mouth_happy">M 30,65 Q 50,85 70,65 </string>
+    <string name="path_right_eye_sad">M 58,40 Q 66,50 73,40</string>
+    <string name="path_left_eye_sad">M 28,40 Q 36,50 43,40</string>
+    <string name="path_right_eye_happy">M 58,40 Q 66,30 73,40</string>
+    <string name="path_left_eye_happy">M 28,40 Q 36,30 43,40</string>
+    <!--线性心-->
+    <string name="path_heart_lin1">M 15,50
+        L 50,85 L 85,50 L 67.5,32.5
+        A 17.5,17.5 0,1,1,32.5,67.5
+        A 17.5,17.5 0,0,1,67.5,32.5
+        L 50,15 L 15,50
+        A 17.5,17.5 0,0,1,50,15
+        A 17.5,17.5 0,0,1,85,50
+    </string>
+    <!--红心-->
+    <string name="path_red_heart_line">
+        M 50,15
+        A 17.5,17.5,0,1,1,85,50
+        L 50,85 L 15,50
+        A 17.5,17.5,0,1,1,50,15
+    </string>
+    <!--bonc-->
+    <string name="path_bonc">M 12,25 L 42,25 A 12.5,12.5,90,1,1,42,50 L 56,50 A 24,24,0,1,1,104,50 L 108,50 L 108,25 L 118,25 133,50 L 133,25 L 143,25 L 143,50 L 148,50 A 25,25 -90,0,1,178,25 L 178,35 A 15,15,-90,0,0,158,50 A 15,15,90,0,0,178,65 L 178,75 A 25,25,90,0,1,148,50 L 143,50 L 143,75 L 133,75,118,50 L 118,75 L 108 75 L 108,50 L 104,50 A 24,24,180,1,1,56,50 L 42,50 A 12.5,12.5,90,1,1,42,75 L 12,75 L 12 ,25</string>
+
+
+
 </resources>

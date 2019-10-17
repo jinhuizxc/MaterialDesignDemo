@@ -11,6 +11,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".base.MVVMBaseActivity"></activity>
+        <activity android:name=".revealEffect.RevealEffectAc" />
+        <activity android:name=".constraintlayout.ProgramActivity" />
+        <activity android:name=".constraintlayout.ConstraintActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,15 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".CollapsingToolbarLayoutActivity"/>
-        <activity android:name=".CollapsingToolbarLayoutActivityNew"/>
-        <activity android:name=".TeachMainActivity"/>
-        <activity android:name=".example.supportdesign.SupportDesignExampleActivity"
-            android:theme="@style/supportDesignTheme"/>
-
-        <activity android:name=".coordinatorlayout.CoordinatorLayoutActivity"/>
-
+        <activity android:name=".CollapsingToolbarLayoutActivity" />
+        <activity android:name=".CollapsingToolbarLayoutActivityNew" />
+        <activity android:name=".TeachMainActivity" />
+        <activity
+            android:name=".example.supportdesign.SupportDesignExampleActivity"
+            android:theme="@style/supportDesignTheme" />
+        <activity android:name=".coordinatorlayout.CoordinatorLayoutActivity" />
+        <activity android:name=".bottomsheetdialog.ZhiHuAc" />
+        <activity android:name=".constraintlayout.CustomConstraintAc" />
     </application>
 
 </manifest>
